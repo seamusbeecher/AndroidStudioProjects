@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_select_avatar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectAvatarFragment">
+
+
+    <ImageView
+        android:id="@+id/imageViewFemale1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/avatar_f_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewFemale2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/avatar_f_2"
+        app:layout_constraintStart_toStartOf="@+id/imageViewFemale1"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewFemale1" />
+
+    <ImageView
+        android:id="@+id/imageViewFemale3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/avatar_f_3"
+        app:layout_constraintStart_toStartOf="@+id/imageViewFemale2"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewFemale2" />
+
+    <ImageView
+        android:id="@+id/imageViewMale1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:src="@drawable/avatar_m_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewMale2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/avatar_m_2"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMale1"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMale1" />
+
+    <ImageView
+        android:id="@+id/imageViewMale3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/avatar_m_3"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMale2"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMale2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
