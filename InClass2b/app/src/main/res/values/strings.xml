@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">In Class 2b</string>
+    <string name="meters">Meters:</string>
+    <string name="result">Result:</string>
+    <string name="buttonInches">To Inches</string>
+    <string name="buttonFeet">To Feet</string>
+    <string name="buttonMiles">To Miles</string>
+    <string name="buttonClear">Clear All</string>
+    <string name="hintDistance"></string>
+    <string name="convert">Convert</string>
+<!--    <string name="resultText"></string>-->
+</resources>
