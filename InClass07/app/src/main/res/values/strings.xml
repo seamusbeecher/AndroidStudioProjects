@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InClass07</string>
+    <string name="temp">Temperature:</string>
+    <string name="maxtemp">Temperature Max:</string>
+    <string name="mintemp">Temperature Min:</string>
+    <string name="description">Description:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="windspeed">Wind Speed:</string>
+    <string name="winddegree">Wind Degree:</string>
+    <string name="cloudiness">Cloudiness:</string>
+</resources>
