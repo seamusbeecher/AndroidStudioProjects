@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HW02</string>
+    <string name="dept">Department:</string>
+    <string name="SIS">SIS</string>
+    <string name="CS">CS</string>
+    <string name="BIO">BIO</string>
+    <string name="OTHERS">Others</string>
+    <string name="currentMoodText">Your Current Mood</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name:</string>
+    <string name="email">Email:</string>
+    <string name="mood">Mood:</string>
+    <string name="studentInto">Student Information</string>
+    <string name="editInfo">Edit Information</string>
+    <string name="save">Save</string>
+</resources>
